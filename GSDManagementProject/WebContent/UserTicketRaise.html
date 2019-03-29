@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>UserTicketRaise</title>
+
+
+
+
+
+<form action="UTRdisplay.java" style="border:1px solid #ccc">
+  <div class="container">
+
+<link rel="stylesheet" href="user login style.css">
+    <h1>Update Ticket Status</h1>
+    
+    <hr>
+
+    <label for="USER ID "><b>USER ID : </b></label>
+    <input type="text" placeholder="Enter USER ID" name="user_id" required><span class="red-star">*</span><br><br>
+
+<label for="GSD ID"><b>GSD ID: </b></label>
+    <input type="text" placeholder="Enter GSD ID" name="gsd_id" required><span class="red-star">*</span><br><br>
+    
+    <label for="Issue Description"><b>Issue Description: </b></label>
+    <input type="text" placeholder="Enter Issue Description" name="issue_description" required><span class="red-star">*</span><br><br>
+
+       <label for="Status"><b>Status: </b></label>
+
+						<select name="status">
+							<option value="initiated">Initiated</option>
+							<option value="pending">Pending</option>
+							<option value="completed">Completed</option>
+						</select>
+						<span class="red-star">*</span><br><br>
+       
+ 
+    
+     <div class="clearfix">
+     
+      <button type="submit" class="signupbtn">Submit</button>
+    </div>
+    
+       
+  </div>
+</form>
+</head>
+
+</body>
+</html>

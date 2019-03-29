@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="AdminUpdate" style="border:1px solid #ccc">
+  <div class="container">
+
+
+    <h1>Update User Raised Ticket</h1>
+    
+    <hr>
+
+    <label for="USER ID"><b>USER ID: </b></label>
+    <input type="text" placeholder="Enter USER ID" name="user_id" required><span class="red-star">*</span><br><br>
+
+<label for="GSD ID"><b>GSD ID: </b></label>
+    <input type="text" placeholder="Enter GSD ID" name="gsd_id" required><span class="red-star">*</span><br><br>
+
+       <label for="Status"><b>Status: </b></label>
+
+						<select name="status">
+							<option value="pending">Pending</option>
+							<option value="completed">Completed</option>
+							<option value="Closed">Closed</option>
+						</select>
+						<span class="red-star">*</span><br><br>
+       
+ 
+    
+     <div class="clearfix">
+     
+      <input type="submit" value="Update">
+    </div>
+    
+       
+  </div>
+</form>
+</body>
+</html>
